@@ -47,3 +47,15 @@ for szo in szavak:
 print("Szóhosszak:", hosszok)
 
 print("--------------------------------")
+
+
+# 3. feladat
+szam = input("Adj meg egy számot: ")
+osszeg = 0
+
+for karakter in szam:
+    osszeg += int(karakter)
+
+print("Számjegyek összege:", osszeg)
+
+print("--------------------------------")
