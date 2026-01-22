@@ -59,3 +59,16 @@ for karakter in szam:
 print("Számjegyek összege:", osszeg)
 
 print("--------------------------------")
+
+# 4. feladat
+mondat2 = input("Írj be egy mondatot: ")
+
+if mondat2.endswith("?"):
+    print("Kérdő mondat")
+elif mondat2.endswith("!"):
+    print("Felszólító vagy óhajtó mondat")
+else:
+    print("Kijelentő mondat")
+
+print("--------------------------------")
+
