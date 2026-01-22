@@ -72,3 +72,28 @@ else:
 
 print("--------------------------------")
 
+# 5. feladat
+szamok = []
+
+while True:
+    adat = input("Adj meg egy számot (stop a vége): ")
+    if adat == "stop":
+        break
+    else:
+        szamok.append(int(adat))
+
+print("Beolvasott számok száma:", len(szamok))
+
+if len(szamok) > 0:
+    legnagyobb = max(szamok)
+    legkisebb = min(szamok)
+    print("Különbség:", legnagyobb - legkisebb)
+
+    oszthato3 = []
+    for sz in szamok:
+        if sz % 3 == 0:
+            oszthato3.append(sz)
+
+    print("3-al osztható számok:", oszthato3)
+else:
+    print("Nem lett szám megadva")
