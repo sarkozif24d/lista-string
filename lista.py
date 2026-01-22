@@ -35,3 +35,15 @@ else:
     print("Hiányzó számok:", hianyzo)
 
 print("--------------------------------")
+
+# 2. feladat# 2. feladat
+mondat = "A programozás logikus gondolkodást fejleszt"
+szavak = mondat.split()
+hosszok = []
+
+for szo in szavak:
+    hosszok.append(len(szo))
+
+print("Szóhosszak:", hosszok)
+
+print("--------------------------------")
